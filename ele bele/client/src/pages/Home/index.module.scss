@@ -1,0 +1,85 @@
+#banner{
+    margin-top: 60px;
+    background-image: url(https://preview.colorlib.com/theme/villa/img/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .banner{
+        text-align: center;
+        padding-top: 250px;
+        h3{
+            font-size: 70px;
+            color: white;
+            font-weight: 600;
+        }
+        p{
+            font-size: 30px;
+            color: white;
+            line-height: 5rem;
+        }
+        button{
+            padding: 7px 30px;
+            border-radius: 20px;
+            border: none;
+            transition: .4s;
+            color: white;
+        }
+        .btn1{
+            background-color: #e61c5d;
+            &:hover{
+                background-color: #b11848;
+                cursor: pointer;
+            }
+        }
+        .btn2{
+            background-color: transparent;
+            &:hover{
+                background-color: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+    
+    }
+}
+
+
+#products{
+    .headingP{
+        text-align: center;
+        h3{
+            color: black;
+            font-size: 50px;
+            font-weight: 500;
+            // text-align: center;
+        }
+        p{
+            font-size: 20px;
+            color: black;
+            max-width: 700px;
+        }
+    }
+}
+
+#slider{
+    margin-top: 180px;
+    .slider{
+        .headingS{
+            h3{
+                color: black;
+                font-size: 50px;
+                font-weight: 500;
+                text-align: center;
+            }
+            p{
+                font-size: 20px;
+                color: black;
+                // max-width: 700px;
+                text-align: center;
+                line-height: 1.7rem;
+                padding: 30px 0px;
+            }
+        }
+    }
+}

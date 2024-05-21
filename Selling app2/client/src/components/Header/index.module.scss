@@ -1,0 +1,27 @@
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    z-index: 999;
+    #navbar{
+        background-color: white;
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0px;
+        }
+        .logo{
+            font-size: 30px;
+        }
+        ul{
+            display: flex;
+            gap:15px;
+            a{
+                color: black;
+                font-size: 20px;
+            }
+        }
+    }
+}
