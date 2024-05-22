@@ -1,0 +1,21 @@
+header{
+    #navbar{
+        padding: 20px 0px;
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav{
+                ul{
+                    display: flex;
+                gap: 20px;
+                a{
+                    font-size: 20px;
+                    color: black;
+                }
+                }
+                
+            }
+        }
+    }
+}
